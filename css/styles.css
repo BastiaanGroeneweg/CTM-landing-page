@@ -14,9 +14,12 @@ body {
 #title button {
 	margin-top: 25px;
 }
-#title a {
+a {
 	color: #fff;
 	text-decoration: none;
+}
+a:hover {
+	color: #0f4c75;
 }
 h1 {
 	font-family: Montserrat;
@@ -47,10 +50,12 @@ h1 {
 }
 
 .title-image {
-	width: 50%;
+	width: 60%;
 	margin-left: 180px;
 }
-
+.dropdown-item {
+	color: #0f4c75;
+}
 /* Feature section */
 
 #features {
@@ -88,6 +93,10 @@ h1 {
 }
 #more-info p {
 	padding-right: 40%;
+}
+
+#more-info a:hover {
+	color: #8fafc4;
 }
 
 /* Footer */
